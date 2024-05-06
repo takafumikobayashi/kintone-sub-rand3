@@ -117,8 +117,6 @@
   // field-selection_subtableのselect要素が変更されたときの処理
   formEl.addEventListener('change', (e) => {
 
-    console.log(e.target);
-
     // イベントが発生した要素が<select>でない場合は処理を終了
     if (!e.target.matches('select#field-selection_subtable.field-selection_subtable')) {
       return;
@@ -158,7 +156,7 @@
           formEl.querySelector('.field-selection-area_getfield').appendChild(selectMenu_getfield);
 
         } else {
-            console.log("「参加者」コードのプロパティが見つかりませんでした。");
+            console.log("プロパティが見つかりませんでした。");
         }
       });
     };
