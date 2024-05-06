@@ -1,0 +1,9 @@
+## Directory
+node_modules
+dist
+
+## ppkファイル
+*.ppk
+
+## DS_Store
+.DS_Store
