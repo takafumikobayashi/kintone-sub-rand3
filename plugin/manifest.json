@@ -1,0 +1,48 @@
+{
+  "manifest_version": 1,
+  "version": "1.0.0",
+  "type": "APP",
+  "desktop": {
+    "js": [
+      "js/desktop.js",
+      "https://js.cybozu.com/sweetalert/v2.1.2/sweetalert.min.js"
+    ],
+    "css": [
+      "css/51-modern-default.css",
+      "css/desktop.css"
+    ]
+  },
+  "icon": "image/icon.jpg",
+  "config": {
+    "html": "html/config.html",
+    "js": [
+      "js/config.js",
+      "https://js.cybozu.com/sweetalert/v2.1.2/sweetalert.min.js"
+    ],
+    "css": [
+      "css/51-modern-default.css",
+      "css/config.css"
+    ],
+    "required_params": [
+      "subtable_code", "subtable_field_code", "target_field_code1", "target_field_code2", "target_field_code3"
+    ]
+  },
+  "name": {
+    "ja": "kintone サブテーブルからランダム3件選択プラグイン",
+    "en": "kintonne sub-table random 3 items select plugin"
+  },
+  "description": {
+    "ja": "サブテーブルのレコードからランダムに3件選択し、指定の項目にセットすることができます。",
+    "en": "You can randomly select 3 records from the subtable records and set them to the specified item."
+  },
+  "mobile": {
+    "js": [
+      "js/mobile.js",
+      "https://js.cybozu.com/sweetalert/v2.1.2/sweetalert.min.js"
+    ],
+    "css": [
+      "css/51-modern-default.css",
+      "css/mobile.css"
+    ]
+  }
+}
